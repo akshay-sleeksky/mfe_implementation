@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@apps/mfe1": ["apps/mfe1/src/app"],
+      "@apps/header": ["apps/mfe1/src/app/app.tsx"],
+      "@wsangular/store/ui-shared": ["libs/store/ui-shared/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
